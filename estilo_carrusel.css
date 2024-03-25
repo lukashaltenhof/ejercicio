@@ -1,0 +1,17 @@
+.carousel-item{
+    height: 480px;
+}
+
+.c-img{
+    size: 100%;
+    object-fit: fill;
+
+}
+
+.carousel-inner{
+    background-color: black;
+}
+
+.carrusel-tamaño{
+    width: 100;
+}
