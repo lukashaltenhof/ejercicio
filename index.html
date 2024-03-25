@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuda a un peludo - ONG</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            /* Centrar todo el texto */
+        }
+
+        span.destacado {
+            color: rgb(0, 0, 0);
+            /* Cambiar el color del texto */
+            font-weight: bold;
+            /* Hacer que el texto sea negrita */
+        }
+
+        .contenedor-imagenes {
+            display: flex;
+            /* Utilizar flexbox para controlar el espaciado */
+            justify-content: center;
+            /* Centrar las imágenes horizontalmente */
+        }
+
+        .contenedor-imagenes img {
+            margin: 0 100px;
+            /* Ajustar el margen entre las imágenes */
+        }
+
+        .contenedor-links {
+            display: flex;
+            justify-content: center;
+        }
+
+        .contenedor-links a{
+            margin: 0 200px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Bienvenido a "Ayuda a un peludo"</h1>
+    <p>Somos una ONG comprometida con la <span class="destacado">adopción de animales en situación de calle</span>.</p>
+    <br>
+    <hr>
+    <h2>Conoce a nuestro equipo</h2>
+    <ul style="text-align: left;"> <!-- Alineación izquierda para la lista -->
+        <li>Lukas Haltenhof - Presidente</li>
+        <li>Diego Morales - Coordinador de adopciones</li>
+        <li>Nicolas Vera - Asistente administrativo</li>
+        <li>Adrian Soto - Veterinario</li>
+    </ul>
+    <br>
+    <hr>
+    <h1>Nuestras secciones de Ayuda</h1>
+    <br>
+    <div class="contenedor-imagenes">
+        <img src="img/perro.jpg" width="200px"/>
+        <img src="img/gato.jpg" width="200px"/>
+    </div>
+    <br>
+    <div class="contenedor-links">
+        <a target="_blank" href="perros.html">PERROS</a>
+        <a target="_blank" href="gatos.html">GATOS</a>
+    </div>
+    
+    </body>
+
+</html>

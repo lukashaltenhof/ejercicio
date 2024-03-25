@@ -1,0 +1,28 @@
+.contenedor-textoencabezado {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor-imagenes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.contenedor-imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.nombre-mascota {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+}
