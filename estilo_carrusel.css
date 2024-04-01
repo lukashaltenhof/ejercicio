@@ -1,17 +1,48 @@
-.carousel-item{
-    height: 480px;
+.carousel-item {
+    height: 100%; /* Altura del 100% del contenedor */
+    width: 100%; /* Ancho del 100% del contenedor */
 }
 
-.c-img{
-    size: 100%;
-    object-fit: fill;
+.c-img {
+    width: 100%; /* Ancho del 100% para ocupar todo el espacio disponible */
+    height: auto; /* Mantenemos la proporción de aspecto */
+    display: block;
+    object-fit: cover; /* Ajusta la imagen para cubrir todo el espacio disponible sin distorsionar */
+}
 
+@media (max-width: 768px) {
+    .carrusel-tamaño {
+        aspect-ratio: 1.5; /* Proporción de aspecto de las imágenes */
+    }
 }
 
 .carousel-inner{
-    background-color: black;
+    background-color: aliceblue;
 }
 
 .carrusel-tamaño{
-    width: 100;
+    width: auto;
 }
+
+@media (max-width: 768px) {
+    .carrusel-tamaño {
+        max-width: 100%; /* Reducimos el ancho del carrusel al 100% del contenedor padre */
+        margin: 0;  
+        aspect-ratio: 1.5; /* Proporción de aspecto de las imágenes */
+    }
+}
+
+.card {
+    width: 100%; /* Ancho de la tarjeta */
+    
+    background-color: lightcoral;
+    
+}
+
+.card-img-top{
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
