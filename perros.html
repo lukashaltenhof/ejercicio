@@ -1,42 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perros</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
+
 <body>
-    <div class="contenedor-textoencabezado">
-        <h1>PERROS EN ADOPCION</h1>
-        <br>
-        <p>Aquí podrás encontrar una lista de nuestros perritos rescatados. Todos han sido cuidados con el debido cariño
-            y respeto que merecen.</p>
-        <p>Cada uno de ellos <strong>cuenta con sus vacunas al día</strong>, además de estar
-            <strong>esterilizados</strong>. </p>
-        <br>
-        <hr>
-        <h2>Nuestros perros que buscan familia</h2>
+    <div class="contenedor-textoencabezado d-flex justify-content-center">
+        <h1 class="display-1">Perros</h1>
     </div>
-    <div class="contenedor-imagenes">
-        <div class="contenedor-imagen">
-            <a href="cachulo.html" target="_blank">
-                <img src="img/perrito1.jpg" alt="Mascota 1">
-            </a>
-            <span class="nombre-mascota">Cachulo</span>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="img/perrito1.jpg" class="card-img-top" alt="Cachulo">
+                    <div class="card-body">
+                        <h5 class="card-title"  style="text-align: center;">Cachulo</h5>
+                        <p class="card-text" >Un cachorro muy amigable, sociable y buen compañero.</p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Edad: 6 meses</li>
+                            <li class="list-group-item">Raza: Boston Terrier</li>
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Vacunas: Al día</li>
+                            <li class="list-group-item">Esterilizado: NO</li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary">ADOPTAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="img/perrito3.jpg" class="card-img-top" alt="Manolo">
+                    <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title">Manolo</h5>
+                        <p class="card-text" >Un perrito muy alegre y leal espera por ti.</p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Edad: 3 meses</li>
+                            <li class="list-group-item">Raza: Cockapoo</li>
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Vacunas: Al día</li>
+                            <li class="list-group-item">Esterilizado: NO</li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary">ADOPTAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="img/labrador.jpg" class="card-img-top" alt="Jimeno">
+                    <div class="card-body">
+                        <h5 class="card-title"style="text-align: center;">Jimeno</h5>
+                        <p class="card-text">Un joven labrador muy inteligente y sociable.</p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Edad: 5 meses</li>
+                            <li class="list-group-item">Raza: Labrador</li>
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Vacunas: Al día</li>
+                            <li class="list-group-item">Esterilizado: NO</li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary">ADOPTAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="img/perrito2.jpg" class="card-img-top" alt="Jacinto">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center;">Jacinto</h5>
+                        <p class="card-text">Un pequeñín muy juguetón y de rápido aprendizaje.</p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Edad: 6 meses</li>
+                            <li class="list-group-item">Raza: ?</li>
+                            <li class="list-group-item">Sexo: Macho</li>
+                            <li class="list-group-item">Vacunas: Al día</li>
+                            <li class="list-group-item">Esterilizado: NO</li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary">ADOPTAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="contenedor-imagen">
-            <a href="manolo.html" target="_blank">
-                <img src="img/perrito2.jpg" alt="Mascota 2">
-            </a>
-            <span class="nombre-mascota">Manolo</span>
-        </div>
-        <div class="contenedor-imagen">
-            <a href="jimeno.html" target="_blank">
-                <img src="img/perrito3.jpg" alt="Mascota 3">
-            </a>
-            <span class="nombre-mascota">Jimeno</span>
+
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="img/quiltra.jpg" class="card-img-top" alt="China">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center;">China</h5>
+                        <p class="card-text">Una perrita llena de energía y amor para entregarte.</p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Edad: 1 año</li>
+                            <li class="list-group-item">Raza: Quiltro Chileno</li>
+                            <li class="list-group-item">Sexo: Hembra</li>
+                            <li class="list-group-item">Vacunas: Al día</li>
+                            <li class="list-group-item">Esterilizado: SÍ</li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary">ADOPTAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
